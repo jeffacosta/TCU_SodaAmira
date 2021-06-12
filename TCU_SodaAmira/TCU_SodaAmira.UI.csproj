@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-TCU_SodaAmira-7C4DF724-6A50-4D62-9849-C2AAA85EB258</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.16" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.16" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TCU_SodaAmira.BLL\TCU_SodaAmira.BLL.csproj" />
+    <ProjectReference Include="..\TCU_SodaAmira.DA\TCU_SodaAmira.DA.csproj" />
+    <ProjectReference Include="..\TCU_SodaAmira.Models\TCU_SodaAmira.Models.csproj" />
+  </ItemGroup>
+
+</Project>

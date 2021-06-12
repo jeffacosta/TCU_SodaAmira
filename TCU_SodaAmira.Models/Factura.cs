@@ -9,6 +9,7 @@ namespace TCU_SodaAmira.Models
         int NumeroMesa;
         int NumeroFactura;
         int Subtotal;
+        DateTime Fecha;
         int total;
     }
 }

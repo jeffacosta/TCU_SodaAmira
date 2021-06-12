@@ -8,7 +8,7 @@ namespace TCU_SodaAmira.Models
     {
         int Codigo;
         int Cantidad;
-        string Descripción;
+        string Descripcion;
         int PrecioCosto;
     }
 }

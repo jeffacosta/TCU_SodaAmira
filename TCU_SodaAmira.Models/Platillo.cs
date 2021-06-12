@@ -4,10 +4,11 @@ using System.Text;
 
 namespace TCU_SodaAmira.Models
 {
-    public class Ingrediente
+    public class Platillo
     {
+        int NumeroPlato;
+        String Descripcion;
+        int Precio;
         int NumeroIngrediente;
-        int Codigo;
-        
     }
 }

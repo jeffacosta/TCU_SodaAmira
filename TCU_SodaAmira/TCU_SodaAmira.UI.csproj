@@ -20,8 +20,4 @@
     <ProjectReference Include="..\TCU_SodaAmira.Models\TCU_SodaAmira.Models.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Views\Inventario\" />
-  </ItemGroup>
-
 </Project>

@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using TCU_SodaAmira.DA;
+using TCU_SodaAmira.Models;
 
 namespace TCU_SodaAmira.BLL
 {
@@ -12,5 +15,11 @@ namespace TCU_SodaAmira.BLL
             elContextoDeBaseDeDatos = contexto;
         }
 
+        public List<Inventario> ObtenerTodoElInventario()
+        {
+            List<Inventario> Lalista;
+            Lalista = elContextoDeBaseDeDatos.Inventario.ToList();
+            return Lalista;
+        }
     }
 }

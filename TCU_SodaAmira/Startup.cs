@@ -63,7 +63,7 @@ namespace TCU_SodaAmira
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Inventario}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }

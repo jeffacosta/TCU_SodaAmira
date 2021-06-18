@@ -9,14 +9,19 @@
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.16" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.16" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.16" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.16" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\TCU_SodaAmira.BLL\TCU_SodaAmira.BLL.csproj" />
     <ProjectReference Include="..\TCU_SodaAmira.DA\TCU_SodaAmira.DA.csproj" />
     <ProjectReference Include="..\TCU_SodaAmira.Models\TCU_SodaAmira.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Inventario\" />
   </ItemGroup>
 
 </Project>

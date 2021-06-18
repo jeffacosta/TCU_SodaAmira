@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
+using TCU_SodaAmira.Models;
 
 namespace TCU_SodaAmira.DA
 {
@@ -8,5 +9,7 @@ namespace TCU_SodaAmira.DA
         public ContextoDeBaseDeDatos() { }
         public ContextoDeBaseDeDatos(DbContextOptions<ContextoDeBaseDeDatos> opciones) : base(opciones)
         { }
+
+        public DbSet<Inventario> Inventario { get; set; }
     }
 }
